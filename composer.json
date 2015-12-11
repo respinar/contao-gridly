@@ -1,0 +1,39 @@
+{
+	"name":"respinar/contao-gridly",
+	"description":"The minimal (~157 bytes) grid system for modern browsers.",
+	"keywords":["contao","grid","responsive"],
+	"type":"contao-module",
+	"homepage":"https://github.com/respinar/contao-gridly",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"Hamid Abbaszadeh",
+			"homepage":"http://respinar.com",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/respinar/contao-gridly/issues",
+		"source":"https://github.com/respinar/contao-gridly"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.2,<4",
+		"contao-community-alliance/composer-plugin": "~2.0"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/gridly": "system/modules/gridly",
+				"assets/contao/css/gridly.css": "assets/contao/css/gridly.css",
+				"assets/contao/css/gridly.min.css": "assets/contao/css/gridly.min.css"
+			},
+			"transifex": {
+				"project": "contao-gridly",
+				"prefix": "master-",
+				"languages_cto": "system/modules/gridly/languages",
+				"languages_tx": ".tx"
+			}
+		}
+	}
+}
