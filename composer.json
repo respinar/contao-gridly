@@ -1,9 +1,9 @@
 {
 	"name":"respinar/contao-gridly",
 	"description":"The minimal (~157 bytes) grid system for modern browsers.",
-	"keywords":["contao","grid","responsive"],
+	"keywords":["contao","grid","flexbox","responsive"],
 	"type":"contao-module",
-	"homepage":"https://github.com/respinar/contao-gridly",
+	"homepage":"http://respinar.com",
 	"license":"MIT",
 	"authors":[
 		{
