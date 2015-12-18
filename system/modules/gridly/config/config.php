@@ -6,8 +6,8 @@
  *
  * @package   gridly
  * @author    Hamid Abbaszadeh
- * @license   The MIT License (MIT)
- * @copyright respinar 2015
+ * @license   MIT
+ * @copyright 2015 respinar
  */
 
 $GLOBALS['TL_HOOKS']['loadDataContainer'][] = array('Gridly\GridlyDca', 'loadDataContainerGridly');
