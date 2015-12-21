@@ -1,6 +1,6 @@
 {
 	"name":"respinar/contao-gridly",
-	"description":"The minimal (~157 bytes) grid system for modern browsers.",
+	"description":"The minimal (~157 bytes) grid system for Conato CMS.",
 	"keywords":["contao","grid","flexbox","responsive"],
 	"type":"contao-module",
 	"homepage":"http://respinar.com",
